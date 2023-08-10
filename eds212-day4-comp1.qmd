@@ -68,3 +68,9 @@ Find the population structure for each life stage at t =1 year.
 ```{r}
 insect_y1 <- insect_leslie %*% insect_y0
 ```
+
+Find the population structure for each life stage at t = 2 years.
+
+```{r}
+insect_y2 <- insect_leslie %*% insect_y1
+```
